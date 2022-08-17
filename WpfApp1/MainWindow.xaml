@@ -1,0 +1,263 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <!--<StackPanel Name="stckPanel" >
+            --><!--<Button Height="50" Margin="10,20,30,40">1</Button>
+            <Button Height="50" Margin="20,50">2</Button>
+            <Button Height="50">3</Button>-->
+
+            <!--<Label MouseDoubleClick="Label_MouseDoubleClick" Width="200" Height="50" Margin="20" Background="Orange" Padding="5" HorizontalAlignment="Center"
+                   HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                   >1</Label>
+
+            <Label Name="lbl" Visibility="Hidden" Height="50" Margin="20" Background="DeepPink" >2</Label>
+            <Label Width="200" Height="50" Margin="20" Background="Orange" Padding="5" HorizontalAlignment="Center"
+                   HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                   >1</Label>-->
+
+
+            <!--<Label Height="50"
+                   Margin="0,10,0,0"
+                   BorderThickness="0"
+                   FontFamily="Verdana"
+                   FontSize="30"
+                   Background="Orange"
+                   Content="Wpf is Wonderfull"
+                   HorizontalContentAlignment="Center"
+                   Foreground="White"
+                   >
+                <Label.RenderTransform>
+                    <RotateTransform Angle="20" ></RotateTransform>
+                    --><!--<ScaleTransform ScaleY="4"></ScaleTransform>
+                    <SkewTransform AngleX="45" ></SkewTransform>--><!--
+                </Label.RenderTransform>                
+            </Label>-->
+
+            <!--<Label Height="50"
+                   Margin="0,10,0,0"
+                   BorderThickness="0"
+                   FontFamily="Verdana"
+                   FontSize="30"
+                   Background="Orange"
+                   Content="Wpf is Wonderfull"
+                   HorizontalContentAlignment="Center"
+                   Foreground="White"
+                   >
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        
+                    <RotateTransform Angle="5" ></RotateTransform>
+                    <ScaleTransform ScaleY="1"></ScaleTransform>
+                    <SkewTransform AngleX="5" ></SkewTransform>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>--><!--
+
+
+        </StackPanel>
+
+
+
+        <StackPanel Orientation="Horizontal" Background="BurlyWood">
+          
+            <Label Content="Wpf Framework" HorizontalAlignment="Right" 
+                   VerticalAlignment="Top" Height="100" 
+                   Width="300"
+                   Background="LightGoldenrodYellow"
+                   FontSize="30"
+                   Margin="5"
+                   >
+                
+            </Label>
+            <Label Content="Wpf Framework" HorizontalAlignment="Right" 
+                   VerticalAlignment="Bottom" Height="100" 
+                   Width="300"
+                   Background="LightGoldenrodYellow"
+                   FontSize="30"
+                   Margin="5"
+                   >
+
+            </Label>
+        </StackPanel>-->
+
+
+
+        <!--<Canvas Background="PapayaWhip" >
+            <Button Panel.ZIndex="1" Canvas.Top="27" Canvas.Left="120" Width="100" Height="100" Background="SpringGreen"  ></Button>
+            <Button Panel.ZIndex="2" Canvas.Top="77" Canvas.Left="120" Width="100" Height="100" Background="Pink"  ></Button>
+            <Button Panel.ZIndex="3" Canvas.Top="127" Canvas.Left="120" Width="100" Height="100" Background="Orange"  ></Button>
+        </Canvas>-->
+
+
+        <!--<Canvas Background="LightSalmon" >
+            <Button Canvas.Left="25" Canvas.Top="15" Width="100" Height="100" Background="GreenYellow" >
+                <Canvas Background="LightBlue" Width="50" Height="50" >
+                    <Button Width="20" Height="20" Background="DeepPink" Canvas.Left="15" Canvas.Top="15"></Button>
+                </Canvas>
+            </Button>
+        </Canvas>-->
+
+
+        <!--<Canvas Background="PapayaWhip">
+            <Label Name="lbl" Height="50" Width="50" Background="Pink" ></Label>
+        </Canvas>-->
+        <!--<Canvas Background="PapayaWhip">
+            <Label Canvas.Top="-50" Height="550" Width="120" Background="Orange" >
+                <Label.RenderTransform>
+                    <RotateTransform Angle="25" ></RotateTransform>
+                </Label.RenderTransform>
+            </Label>
+            <Label Canvas.Top="-50" Height="550" Canvas.Left="40"  Width="50" Background="Pink" >
+                <Label.RenderTransform>
+                    <RotateTransform Angle="25" ></RotateTransform>
+                </Label.RenderTransform>
+            </Label>
+            <Label Canvas.Left="80" Canvas.Top="-50" Height="550" Width="50" Background="SpringGreen" >
+                <Label.RenderTransform>
+                    <RotateTransform Angle="25" ></RotateTransform>
+                </Label.RenderTransform>
+            </Label>
+            <Label Canvas.Left="120" Canvas.Top="-50" Height="550" Width="50" Background="DeepSkyBlue" >
+                <Label.RenderTransform>
+                    <RotateTransform Angle="25" ></RotateTransform>
+                </Label.RenderTransform>
+            </Label>
+            <Label Canvas.Left="160" Canvas.Top="-50" Height="550" Width="50" Background="DeepPink" >
+                <Label.RenderTransform>
+                    <RotateTransform Angle="25" ></RotateTransform>
+                </Label.RenderTransform>
+            </Label>
+
+            <Ellipse Fill="SpringGreen" Height="435" Width="300" Canvas.Right="50" Canvas.Top="50">
+                <Ellipse.RenderTransform>
+                    <RotateTransform Angle="-45" ></RotateTransform>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+        </Canvas>-->
+
+
+
+
+        <!--<StackPanel Orientation="Horizontal">
+            <Button Margin="10" Height="40" Width="100" Background="LightBlue" ></Button>
+            <Button Margin="10" Height="40" Width="100" Background="LightBlue" ></Button>
+            <Button Margin="10" Height="40" Width="100" Background="LightBlue" ></Button>
+            <Button Margin="10" Height="40" Width="100" Background="LightBlue" ></Button>
+            <Button Margin="10" Height="40" Width="100" Background="LightBlue" ></Button>
+            <Button Margin="10" Height="40" Width="100" Background="LightBlue" ></Button>
+            <Button Margin="10" Height="40" Width="100" Background="LightBlue" ></Button>
+            <Button Margin="10" Height="40" Width="100" Background="LightBlue" ></Button>
+            <Button Margin="10" Height="40" Width="100" Background="LightBlue" ></Button>
+        </StackPanel>-->
+        <!--<WrapPanel Orientation="Vertical">
+            <Button Margin="10" Height="40" Width="100" Background="LightBlue" ></Button>
+            <Button Margin="10" Height="40" Width="100" Background="LightBlue" ></Button>
+            <Button Margin="10" Height="40" Width="100" Background="LightBlue" ></Button>
+            <Button Margin="10" Height="40" Width="100" Background="LightBlue" ></Button>
+            <Button Margin="10" Height="40" Width="100" Background="LightBlue" ></Button>
+            <Button Margin="10" Height="40" Width="100" Background="LightBlue" ></Button>
+            <Button Margin="10" Height="40" Width="100" Background="LightBlue" ></Button>
+            <Button Margin="10" Height="40" Width="100" Background="LightBlue" ></Button>
+            <Button Margin="10" Height="40" Width="100" Background="LightBlue" ></Button>
+        </WrapPanel>-->
+
+
+        <!--<DockPanel>
+            <WrapPanel DockPanel.Dock="Top" HorizontalAlignment="Center" Background="DeepPink" >
+                <Button Padding="20" Background="DeepSkyBlue" FontSize="16" FontStyle="Italic" FontWeight="ExtraBlack" Content="Home" ></Button>
+                <Button Padding="20" Background="DeepSkyBlue" FontSize="16" FontStyle="Italic" FontWeight="ExtraBlack" Content="About" ></Button>
+                <Button Padding="20" Background="DeepSkyBlue" FontSize="16" FontStyle="Italic" FontWeight="ExtraBlack" Content="News" ></Button>
+            </WrapPanel>
+            <Button 
+                    DockPanel.Dock="Left"
+                    Padding="20"
+                    FontSize="30"
+                    Content="LEFT"
+                    Background="Yellow">
+            </Button>
+            <Button 
+                    DockPanel.Dock="Right"
+                    Padding="20"
+                    FontSize="30"
+                    Content="RIGHT"
+                    Background="IndianRed">
+            </Button>
+            <Button 
+                    DockPanel.Dock="Bottom"
+                    Padding="20"
+                    FontSize="30"
+                    Content="BOTTOM"
+                    Background="SpringGreen">
+            </Button>
+            <Button 
+                    DockPanel.Dock="Right"
+                    Padding="20"
+                    FontSize="30"
+                    Content="CENTER"
+                    Background="FloralWhite">
+            </Button>
+        </DockPanel>-->
+
+
+
+
+        <!--<Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            
+
+            --><!--<Grid Grid.ColumnSpan="2" Background="Yellow" Grid.Row="0"></Grid>
+            --><!--<Grid Background="Red" Grid.Row="1" ></Grid>--><!--
+            <Grid Background="HotPink" Grid.Row="1" Grid.Column="0" ></Grid>
+            <Grid Background="DeepSkyBlue" Grid.Row="1" Grid.Column="1" ></Grid>--><!--
+            
+            
+            
+            <Grid Grid.RowSpan="2" Background="Yellow" Grid.Row="0"></Grid>
+           
+            <Grid Background="HotPink" Grid.Row="0" Grid.Column="1" ></Grid>
+            <Grid Background="DeepSkyBlue" Grid.Row="1" Grid.Column="1" ></Grid>
+
+        </Grid>-->
+
+
+        <!--<Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="9*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Background="DeepPink" ></Grid>
+            <Grid Grid.Row="1" Background="SpringGreen"></Grid>
+            
+        </Grid>-->
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="7*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Row="0" Background="DeepPink" ></Grid>
+            <Grid Grid.Column="1" Background="SpringGreen"></Grid>
+
+        </Grid>
+
+
+
+    </Grid>
+</Window>
